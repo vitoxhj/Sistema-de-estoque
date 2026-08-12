@@ -1,0 +1,34 @@
+Obs:
+	Criar um estoque.json , movimentação.json {estoque,id,nome,quant que tirou e recebeu,data]
+
+1-Cadastro de produto:
+	{id,nome,preço,quantidade}
+	Vai receber a entrada do estoque
+
+2-Remover produto:
+	remover o produto de acordo com o id e a quantidade
+	(caso a quantidade chegue a 0 o estoque mostra zerado)
+	Vai receber a saida do estoque
+
+3-Remover estoque:
+	deleta um estoque inteiro
+
+4-Alterar produto:
+	1-Preço
+	2-Quantidade
+	3-Ambos
+
+5-Lista estoque
+	lista todo o estoque
+
+6-Consultar produto
+	pedir para escolher o id para consulta
+
+7-Historico de movimentação:
+	mostra o movimentação.json
+
+8-Exportar para csv
+
+extras: 
+	avisar quando o estoque de tal produto estiver baixo
+	Mostra quantos produto tem no estoque

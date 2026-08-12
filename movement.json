@@ -1,0 +1,37 @@
+[
+    {
+        "Type": "Post",
+        "id": 1,
+        "name": "Coca-Cola 2L",
+        "entry_quantity": 90,
+        "date": "12/08/2026 18:46:44"
+    },
+    {
+        "Type": "Post",
+        "id": 2,
+        "name": "Churrasqueira",
+        "entry_quantity": 25,
+        "date": "12/08/2026 18:47:32"
+    },
+    {
+        "Type": "Post",
+        "id": 3,
+        "name": "Feijão Tropeiro",
+        "entry_quantity": 500,
+        "date": "12/08/2026 18:48:39"
+    },
+    {
+        "Type": "Post",
+        "id": 4,
+        "name": "Arroz Branco",
+        "entry_quantity": 550,
+        "date": "12/08/2026 18:49:00"
+    },
+    {
+        "Type": "Post",
+        "id": 5,
+        "name": "Moster Branco",
+        "entry_quantity": 600,
+        "date": "12/08/2026 18:49:41"
+    }
+]

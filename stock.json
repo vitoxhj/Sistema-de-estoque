@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Coca-Cola 2L",
+        "amount": 12.5,
+        "quantity": 90
+    },
+    {
+        "id": 2,
+        "name": "Churrasqueira",
+        "amount": 300.0,
+        "quantity": 25
+    },
+    {
+        "id": 3,
+        "name": "Feijão Tropeiro",
+        "amount": 9.99,
+        "quantity": 500
+    },
+    {
+        "id": 4,
+        "name": "Arroz Branco",
+        "amount": 8.0,
+        "quantity": 550
+    },
+    {
+        "id": 5,
+        "name": "Moster Branco",
+        "amount": 12.99,
+        "quantity": 600
+    }
+]
