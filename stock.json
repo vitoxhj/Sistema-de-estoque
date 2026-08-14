@@ -1,32 +1,29 @@
 [
     {
         "id": 1,
-        "name": "Coca-Cola 2L",
+        "name": "Coca-cola 2L",
+        "quantity": 90,
         "amount": 12.5,
-        "quantity": 90
+        "category": "bebidas",
+        "validity": "25/4/2028",
+        "lot": "abc123"
     },
     {
         "id": 2,
-        "name": "Churrasqueira",
-        "amount": 300.0,
-        "quantity": 25
+        "name": "Batata chips",
+        "quantity": 76,
+        "amount": 11.5,
+        "category": "salgados",
+        "validity": "12/12/2027",
+        "lot": "aaa212"
     },
     {
         "id": 3,
-        "name": "Feijão Tropeiro",
-        "amount": 9.99,
-        "quantity": 500
-    },
-    {
-        "id": 4,
-        "name": "Arroz Branco",
-        "amount": 8.0,
-        "quantity": 550
-    },
-    {
-        "id": 5,
-        "name": "Moster Branco",
-        "amount": 12.99,
-        "quantity": 600
+        "name": "Arroz branco",
+        "quantity": 200,
+        "amount": 10.0,
+        "category": "basico",
+        "validity": "10/1/2029",
+        "lot": "adz198"
     }
 ]
