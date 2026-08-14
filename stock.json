@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Coca-cola 2L",
-        "quantity": 90,
+        "quantity": 70,
         "amount": 12.5,
         "category": "bebidas",
         "validity": "25/4/2028",
@@ -11,7 +11,7 @@
     {
         "id": 2,
         "name": "Batata chips",
-        "quantity": 76,
+        "quantity": 51,
         "amount": 11.5,
         "category": "salgados",
         "validity": "12/12/2027",
@@ -25,5 +25,446 @@
         "category": "basico",
         "validity": "10/1/2029",
         "lot": "adz198"
+    },
+    {
+        "id": 4,
+        "name": "Arroz",
+        "quantity": 50,
+        "amount": 25.9,
+        "category": "alimentos",
+        "validity": "15/12/2026",
+        "lot": "ARZ001"
+    },
+    {
+        "id": 5,
+        "name": "Feijão",
+        "quantity": 40,
+        "amount": 8.5,
+        "category": "alimentos",
+        "validity": "20/11/2026",
+        "lot": "FEJ001"
+    },
+    {
+        "id": 6,
+        "name": "Macarrão",
+        "quantity": 60,
+        "amount": 4.99,
+        "category": "alimentos",
+        "validity": "10/01/2027",
+        "lot": "MAC001"
+    },
+    {
+        "id": 7,
+        "name": "Açúcar",
+        "quantity": 45,
+        "amount": 5.49,
+        "category": "alimentos",
+        "validity": "05/02/2027",
+        "lot": "ACU001"
+    },
+    {
+        "id": 8,
+        "name": "Café",
+        "quantity": 30,
+        "amount": 18.9,
+        "category": "alimentos",
+        "validity": "12/10/2026",
+        "lot": "CAF001"
+    },
+    {
+        "id": 9,
+        "name": "Farinha de trigo",
+        "quantity": 35,
+        "amount": 6.75,
+        "category": "alimentos",
+        "validity": "18/03/2027",
+        "lot": "FAR001"
+    },
+    {
+        "id": 11,
+        "name": "Manteiga",
+        "quantity": 25,
+        "amount": 12.5,
+        "category": "laticínios",
+        "validity": "30/09/2026",
+        "lot": "MAN001"
+    },
+    {
+        "id": 12,
+        "name": "Queijo",
+        "quantity": 20,
+        "amount": 28.9,
+        "category": "laticínios",
+        "validity": "15/09/2026",
+        "lot": "QUE001"
+    },
+    {
+        "id": 13,
+        "name": "Iogurte",
+        "quantity": 50,
+        "amount": 3.99,
+        "category": "laticínios",
+        "validity": "22/08/2026",
+        "lot": "IOG001"
+    },
+    {
+        "id": 14,
+        "name": "Refrigerante",
+        "quantity": 70,
+        "amount": 7.5,
+        "category": "bebidas",
+        "validity": "10/06/2027",
+        "lot": "REF001"
+    },
+    {
+        "id": 15,
+        "name": "Suco de laranja",
+        "quantity": 45,
+        "amount": 6.9,
+        "category": "bebidas",
+        "validity": "15/05/2027",
+        "lot": "SUC001"
+    },
+    {
+        "id": 16,
+        "name": "Água mineral",
+        "quantity": 100,
+        "amount": 2.5,
+        "category": "bebidas",
+        "validity": "01/12/2027",
+        "lot": "AGU001"
+    },
+    {
+        "id": 17,
+        "name": "Energético",
+        "quantity": 35,
+        "amount": 9.9,
+        "category": "bebidas",
+        "validity": "20/04/2027",
+        "lot": "ENE001"
+    },
+    {
+        "id": 18,
+        "name": "Chá",
+        "quantity": 30,
+        "amount": 8.75,
+        "category": "bebidas",
+        "validity": "12/07/2027",
+        "lot": "CHA001"
+    },
+    {
+        "id": 19,
+        "name": "Sabonete",
+        "quantity": 100,
+        "amount": 3.25,
+        "category": "higiene",
+        "validity": "01/01/2029",
+        "lot": "SAB001"
+    },
+    {
+        "id": 20,
+        "name": "Shampoo",
+        "quantity": 50,
+        "amount": 14.9,
+        "category": "higiene",
+        "validity": "15/06/2028",
+        "lot": "SHA001"
+    },
+    {
+        "id": 21,
+        "name": "Condicionador",
+        "quantity": 45,
+        "amount": 16.5,
+        "category": "higiene",
+        "validity": "20/08/2028",
+        "lot": "CON001"
+    },
+    {
+        "id": 22,
+        "name": "Creme dental",
+        "quantity": 80,
+        "amount": 7.9,
+        "category": "higiene",
+        "validity": "10/10/2028",
+        "lot": "CRE001"
+    },
+    {
+        "id": 23,
+        "name": "Desodorante",
+        "quantity": 65,
+        "amount": 11.9,
+        "category": "higiene",
+        "validity": "05/05/2028",
+        "lot": "DES001"
+    },
+    {
+        "id": 24,
+        "name": "Papel higiênico",
+        "quantity": 90,
+        "amount": 15.9,
+        "category": "limpeza",
+        "validity": "",
+        "lot": "PH001"
+    },
+    {
+        "id": 25,
+        "name": "Detergente",
+        "quantity": 75,
+        "amount": 2.99,
+        "category": "limpeza",
+        "validity": "01/03/2029",
+        "lot": "DET001"
+    },
+    {
+        "id": 26,
+        "name": "Sabão em pó",
+        "quantity": 40,
+        "amount": 18.5,
+        "category": "limpeza",
+        "validity": "15/09/2028",
+        "lot": "SPO001"
+    },
+    {
+        "id": 27,
+        "name": "Desinfetante",
+        "quantity": 55,
+        "amount": 8.9,
+        "category": "limpeza",
+        "validity": "20/11/2028",
+        "lot": "DESI001"
+    },
+    {
+        "id": 28,
+        "name": "Água sanitária",
+        "quantity": 60,
+        "amount": 6.5,
+        "category": "limpeza",
+        "validity": "10/02/2029",
+        "lot": "AGSA001"
+    },
+    {
+        "id": 29,
+        "name": "Esponja",
+        "quantity": 100,
+        "amount": 2.5,
+        "category": "utilidades",
+        "validity": "",
+        "lot": "ESP001"
+    },
+    {
+        "id": 30,
+        "name": "Saco de lixo",
+        "quantity": 80,
+        "amount": 12.9,
+        "category": "utilidades",
+        "validity": "",
+        "lot": "SAC001"
+    },
+    {
+        "id": 31,
+        "name": "Papel toalha",
+        "quantity": 70,
+        "amount": 9.9,
+        "category": "utilidades",
+        "validity": "",
+        "lot": "PTO001"
+    },
+    {
+        "id": 32,
+        "name": "Guardanapo",
+        "quantity": 120,
+        "amount": 4.5,
+        "category": "utilidades",
+        "validity": "",
+        "lot": "GUA001"
+    },
+    {
+        "id": 33,
+        "name": "Palito de dente",
+        "quantity": 90,
+        "amount": 3.5,
+        "category": "utilidades",
+        "validity": "",
+        "lot": "PAL001"
+    },
+    {
+        "id": 34,
+        "name": "Caneta azul",
+        "quantity": 150,
+        "amount": 2.0,
+        "category": "papelaria",
+        "validity": "",
+        "lot": "CAN001"
+    },
+    {
+        "id": 35,
+        "name": "Caneta preta",
+        "quantity": 120,
+        "amount": 2.0,
+        "category": "papelaria",
+        "validity": "",
+        "lot": "CAN002"
+    },
+    {
+        "id": 36,
+        "name": "Lápis",
+        "quantity": 100,
+        "amount": 1.5,
+        "category": "papelaria",
+        "validity": "",
+        "lot": "LAP001"
+    },
+    {
+        "id": 37,
+        "name": "Borracha",
+        "quantity": 80,
+        "amount": 1.75,
+        "category": "papelaria",
+        "validity": "",
+        "lot": "BOR001"
+    },
+    {
+        "id": 38,
+        "name": "Caderno",
+        "quantity": 50,
+        "amount": 18.9,
+        "category": "papelaria",
+        "validity": "",
+        "lot": "CAD001"
+    },
+    {
+        "id": 39,
+        "name": "Pilha AA",
+        "quantity": 60,
+        "amount": 8.9,
+        "category": "eletrônicos",
+        "validity": "",
+        "lot": "PIL001"
+    },
+    {
+        "id": 40,
+        "name": "Pilha AAA",
+        "quantity": 60,
+        "amount": 9.5,
+        "category": "eletrônicos",
+        "validity": "",
+        "lot": "PIL002"
+    },
+    {
+        "id": 41,
+        "name": "Cabo USB",
+        "quantity": 40,
+        "amount": 15.9,
+        "category": "eletrônicos",
+        "validity": "",
+        "lot": "USB001"
+    },
+    {
+        "id": 42,
+        "name": "Carregador",
+        "quantity": 30,
+        "amount": 29.9,
+        "category": "eletrônicos",
+        "validity": "",
+        "lot": "CAR001"
+    },
+    {
+        "id": 43,
+        "name": "Fone de ouvido",
+        "quantity": 35,
+        "amount": 24.9,
+        "category": "eletrônicos",
+        "validity": "",
+        "lot": "FON001"
+    },
+    {
+        "id": 44,
+        "name": "Bolacha",
+        "quantity": 70,
+        "amount": 5.5,
+        "category": "alimentos",
+        "validity": "10/11/2026",
+        "lot": "BOL001"
+    },
+    {
+        "id": 45,
+        "name": "Biscoito recheado",
+        "quantity": 65,
+        "amount": 4.75,
+        "category": "alimentos",
+        "validity": "15/12/2026",
+        "lot": "BIS001"
+    },
+    {
+        "id": 46,
+        "name": "Chocolate",
+        "quantity": 50,
+        "amount": 7.9,
+        "category": "alimentos",
+        "validity": "20/10/2026",
+        "lot": "CHO001"
+    },
+    {
+        "id": 47,
+        "name": "Achocolatado",
+        "quantity": 45,
+        "amount": 11.9,
+        "category": "alimentos",
+        "validity": "05/03/2027",
+        "lot": "ACH001"
+    },
+    {
+        "id": 48,
+        "name": "Milho em conserva",
+        "quantity": 40,
+        "amount": 4.9,
+        "category": "alimentos",
+        "validity": "10/06/2028",
+        "lot": "MIL001"
+    },
+    {
+        "id": 49,
+        "name": "Atum enlatado",
+        "quantity": 35,
+        "amount": 9.9,
+        "category": "alimentos",
+        "validity": "15/08/2028",
+        "lot": "ATU001"
+    },
+    {
+        "id": 50,
+        "name": "Molho de tomate",
+        "quantity": 60,
+        "amount": 3.9,
+        "category": "alimentos",
+        "validity": "20/05/2027",
+        "lot": "MOL001"
+    },
+    {
+        "id": 51,
+        "name": "Óleo de soja",
+        "quantity": 50,
+        "amount": 7.9,
+        "category": "alimentos",
+        "validity": "10/09/2027",
+        "lot": "OLE001"
+    },
+    {
+        "id": 52,
+        "name": "Sal",
+        "quantity": 80,
+        "amount": 2.5,
+        "category": "alimentos",
+        "validity": "01/12/2028",
+        "lot": "SAL001"
+    },
+    {
+        "id": 53,
+        "name": "Tempero",
+        "quantity": 55,
+        "amount": 4.25,
+        "category": "alimentos",
+        "validity": "15/01/2028",
+        "lot": "TEM001"
     }
 ]

@@ -7,7 +7,7 @@ class Movement:
         self.quantidy = int(quantity)
         self.date = date
 
-    def save_movement(self):
+    def create_movement(self):
         dados = open_movement()
         info = {
             'type': self.type,

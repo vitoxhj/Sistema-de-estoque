@@ -21,3 +21,8 @@ def date_now():
     date = datetime.now()
     date_formatad = date.strftime('%d/%m/%Y %H:%M:%S')
     return date_formatad
+
+def get_view(product):
+    print(f'Name: {product['name']}\nAmount: R${product['amount']}\nQuantity: {product['quantity']}')
+    print(f'Category: {product['category']}\nValidity: {product['validity']}\nLot: {product['lot']}')
+    print('-'*50)

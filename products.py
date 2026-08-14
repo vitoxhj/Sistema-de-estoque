@@ -28,7 +28,7 @@ class Product:
             }
             stock.append(info)
             save_stock(stock)
-            history = Movement('Post',self.name,self.quantity,date)
+            history = Movement('IN',self.name,self.quantity,date)
             history.save_movement()
             print('Product created successfuly!')
     

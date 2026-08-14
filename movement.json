@@ -1,20 +1,350 @@
 [
     {
-        "type": "Post",
+        "type": "IN",
         "name": "Coca-cola 2L",
         "quantidy": 90,
         "date": "14/08/2026 00:00:03"
     },
     {
-        "type": "Post",
+        "type": "IN",
         "name": "Batata chips",
         "quantidy": 76,
         "date": "14/08/2026 00:00:03"
     },
     {
-        "type": "Post",
+        "type": "IN",
         "name": "Arroz branco",
         "quantidy": 200,
         "date": "14/08/2026 00:00:03"
+    },
+    {
+        "type": "IN",
+        "name": "Arroz",
+        "quantidy": 50,
+        "date": "14/08/2026 01:24:52"
+    },
+    {
+        "type": "IN",
+        "name": "Feijão",
+        "quantidy": 40,
+        "date": "14/08/2026 01:24:52"
+    },
+    {
+        "type": "IN",
+        "name": "Macarrão",
+        "quantidy": 60,
+        "date": "14/08/2026 01:24:53"
+    },
+    {
+        "type": "IN",
+        "name": "Açúcar",
+        "quantidy": 45,
+        "date": "14/08/2026 01:24:53"
+    },
+    {
+        "type": "IN",
+        "name": "Café",
+        "quantidy": 30,
+        "date": "14/08/2026 01:24:53"
+    },
+    {
+        "type": "IN",
+        "name": "Farinha de trigo",
+        "quantidy": 35,
+        "date": "14/08/2026 01:24:53"
+    },
+    {
+        "type": "IN",
+        "name": "Leite",
+        "quantidy": 80,
+        "date": "14/08/2026 01:24:53"
+    },
+    {
+        "type": "IN",
+        "name": "Manteiga",
+        "quantidy": 25,
+        "date": "14/08/2026 01:24:53"
+    },
+    {
+        "type": "IN",
+        "name": "Queijo",
+        "quantidy": 20,
+        "date": "14/08/2026 01:24:54"
+    },
+    {
+        "type": "IN",
+        "name": "Iogurte",
+        "quantidy": 50,
+        "date": "14/08/2026 01:24:54"
+    },
+    {
+        "type": "IN",
+        "name": "Refrigerante",
+        "quantidy": 70,
+        "date": "14/08/2026 01:24:54"
+    },
+    {
+        "type": "IN",
+        "name": "Suco de laranja",
+        "quantidy": 45,
+        "date": "14/08/2026 01:24:55"
+    },
+    {
+        "type": "IN",
+        "name": "Água mineral",
+        "quantidy": 100,
+        "date": "14/08/2026 01:24:55"
+    },
+    {
+        "type": "IN",
+        "name": "Energético",
+        "quantidy": 35,
+        "date": "14/08/2026 01:24:55"
+    },
+    {
+        "type": "IN",
+        "name": "Chá",
+        "quantidy": 30,
+        "date": "14/08/2026 01:24:55"
+    },
+    {
+        "type": "IN",
+        "name": "Sabonete",
+        "quantidy": 100,
+        "date": "14/08/2026 01:24:56"
+    },
+    {
+        "type": "IN",
+        "name": "Shampoo",
+        "quantidy": 50,
+        "date": "14/08/2026 01:24:56"
+    },
+    {
+        "type": "IN",
+        "name": "Condicionador",
+        "quantidy": 45,
+        "date": "14/08/2026 01:24:56"
+    },
+    {
+        "type": "IN",
+        "name": "Creme dental",
+        "quantidy": 80,
+        "date": "14/08/2026 01:24:56"
+    },
+    {
+        "type": "IN",
+        "name": "Desodorante",
+        "quantidy": 65,
+        "date": "14/08/2026 01:24:56"
+    },
+    {
+        "type": "IN",
+        "name": "Papel higiênico",
+        "quantidy": 90,
+        "date": "14/08/2026 01:24:56"
+    },
+    {
+        "type": "IN",
+        "name": "Detergente",
+        "quantidy": 75,
+        "date": "14/08/2026 01:24:56"
+    },
+    {
+        "type": "IN",
+        "name": "Sabão em pó",
+        "quantidy": 40,
+        "date": "14/08/2026 01:24:56"
+    },
+    {
+        "type": "IN",
+        "name": "Desinfetante",
+        "quantidy": 55,
+        "date": "14/08/2026 01:24:57"
+    },
+    {
+        "type": "IN",
+        "name": "Água sanitária",
+        "quantidy": 60,
+        "date": "14/08/2026 01:24:57"
+    },
+    {
+        "type": "IN",
+        "name": "Esponja",
+        "quantidy": 100,
+        "date": "14/08/2026 01:24:57"
+    },
+    {
+        "type": "IN",
+        "name": "Saco de lixo",
+        "quantidy": 80,
+        "date": "14/08/2026 01:24:57"
+    },
+    {
+        "type": "IN",
+        "name": "Papel toalha",
+        "quantidy": 70,
+        "date": "14/08/2026 01:24:57"
+    },
+    {
+        "type": "IN",
+        "name": "Guardanapo",
+        "quantidy": 120,
+        "date": "14/08/2026 01:24:58"
+    },
+    {
+        "type": "IN",
+        "name": "Palito de dente",
+        "quantidy": 90,
+        "date": "14/08/2026 01:24:58"
+    },
+    {
+        "type": "IN",
+        "name": "Caneta azul",
+        "quantidy": 150,
+        "date": "14/08/2026 01:24:58"
+    },
+    {
+        "type": "IN",
+        "name": "Caneta preta",
+        "quantidy": 120,
+        "date": "14/08/2026 01:24:58"
+    },
+    {
+        "type": "IN",
+        "name": "Lápis",
+        "quantidy": 100,
+        "date": "14/08/2026 01:24:58"
+    },
+    {
+        "type": "IN",
+        "name": "Borracha",
+        "quantidy": 80,
+        "date": "14/08/2026 01:24:59"
+    },
+    {
+        "type": "IN",
+        "name": "Caderno",
+        "quantidy": 50,
+        "date": "14/08/2026 01:24:59"
+    },
+    {
+        "type": "IN",
+        "name": "Pilha AA",
+        "quantidy": 60,
+        "date": "14/08/2026 01:24:59"
+    },
+    {
+        "type": "IN",
+        "name": "Pilha AAA",
+        "quantidy": 60,
+        "date": "14/08/2026 01:24:59"
+    },
+    {
+        "type": "IN",
+        "name": "Cabo USB",
+        "quantidy": 40,
+        "date": "14/08/2026 01:25:00"
+    },
+    {
+        "type": "IN",
+        "name": "Carregador",
+        "quantidy": 30,
+        "date": "14/08/2026 01:25:00"
+    },
+    {
+        "type": "IN",
+        "name": "Fone de ouvido",
+        "quantidy": 35,
+        "date": "14/08/2026 01:25:00"
+    },
+    {
+        "type": "IN",
+        "name": "Bolacha",
+        "quantidy": 70,
+        "date": "14/08/2026 01:25:00"
+    },
+    {
+        "type": "IN",
+        "name": "Biscoito recheado",
+        "quantidy": 65,
+        "date": "14/08/2026 01:25:00"
+    },
+    {
+        "type": "IN",
+        "name": "Chocolate",
+        "quantidy": 50,
+        "date": "14/08/2026 01:25:00"
+    },
+    {
+        "type": "IN",
+        "name": "Achocolatado",
+        "quantidy": 45,
+        "date": "14/08/2026 01:25:00"
+    },
+    {
+        "type": "IN",
+        "name": "Milho em conserva",
+        "quantidy": 40,
+        "date": "14/08/2026 01:25:01"
+    },
+    {
+        "type": "IN",
+        "name": "Atum enlatado",
+        "quantidy": 35,
+        "date": "14/08/2026 01:25:01"
+    },
+    {
+        "type": "IN",
+        "name": "Molho de tomate",
+        "quantidy": 60,
+        "date": "14/08/2026 01:25:01"
+    },
+    {
+        "type": "IN",
+        "name": "Óleo de soja",
+        "quantidy": 50,
+        "date": "14/08/2026 01:25:01"
+    },
+    {
+        "type": "IN",
+        "name": "Sal",
+        "quantidy": 80,
+        "date": "14/08/2026 01:25:01"
+    },
+    {
+        "type": "IN",
+        "name": "Tempero",
+        "quantidy": 55,
+        "date": "14/08/2026 01:25:01"
+    },
+    {
+        "type": "OUT",
+        "name": "Leite",
+        "quantidy": 6,
+        "date": "14/08/2026 16:16:13"
+    },
+    {
+        "type": "DELETE",
+        "name": "Leite",
+        "quantidy": 56,
+        "date": "14/08/2026 16:17:40"
+    },
+    {
+        "type": "READ",
+        "name": "Detergente",
+        "quantidy": 75,
+        "date": "14/08/2026 16:40:40"
+    },
+    {
+        "type": "READ",
+        "name": "Milho em conserva",
+        "quantidy": 40,
+        "date": "14/08/2026 16:41:15"
+    },
+    {
+        "type": "READ",
+        "name": "Creme dental",
+        "quantidy": 80,
+        "date": "14/08/2026 16:54:20"
     }
 ]
