@@ -23,6 +23,7 @@ def date_now():
     return date_formatad
 
 def get_view(product):
-    print(f'Name: {product['name']}\nAmount: R${product['amount']}\nQuantity: {product['quantity']}')
+    print(f'Id: {product['id']}')
+    print(f'Name: {product['name']}\nBuy: R${product['buy_price']:.2f}\nSell: R${product['sell_price']}\nQuantity: {product['quantity']}')
     print(f'Category: {product['category']}\nValidity: {product['validity']}\nLot: {product['lot']}')
     print('-'*50)

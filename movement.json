@@ -1,350 +1,978 @@
 [
     {
         "type": "IN",
-        "name": "Coca-cola 2L",
-        "quantidy": 90,
-        "date": "14/08/2026 00:00:03"
-    },
-    {
-        "type": "IN",
-        "name": "Batata chips",
-        "quantidy": 76,
-        "date": "14/08/2026 00:00:03"
-    },
-    {
-        "type": "IN",
         "name": "Arroz branco",
-        "quantidy": 200,
-        "date": "14/08/2026 00:00:03"
+        "buy_price": 18.5,
+        "sell_price": 24.9,
+        "quantity": 50,
+        "date": "14/08/2026 20:37:33"
     },
     {
         "type": "IN",
-        "name": "Arroz",
-        "quantidy": 50,
-        "date": "14/08/2026 01:24:52"
+        "name": "Feijão carioca",
+        "buy_price": 6.8,
+        "sell_price": 9.9,
+        "quantity": 45,
+        "date": "14/08/2026 20:37:33"
     },
     {
         "type": "IN",
-        "name": "Feijão",
-        "quantidy": 40,
-        "date": "14/08/2026 01:24:52"
+        "name": "Açúcar cristal",
+        "buy_price": 3.8,
+        "sell_price": 5.5,
+        "quantity": 60,
+        "date": "14/08/2026 20:37:33"
     },
     {
         "type": "IN",
-        "name": "Macarrão",
-        "quantidy": 60,
-        "date": "14/08/2026 01:24:53"
-    },
-    {
-        "type": "IN",
-        "name": "Açúcar",
-        "quantidy": 45,
-        "date": "14/08/2026 01:24:53"
-    },
-    {
-        "type": "IN",
-        "name": "Café",
-        "quantidy": 30,
-        "date": "14/08/2026 01:24:53"
+        "name": "Macarrão espaguete",
+        "buy_price": 3.2,
+        "sell_price": 5.9,
+        "quantity": 40,
+        "date": "14/08/2026 20:37:34"
     },
     {
         "type": "IN",
         "name": "Farinha de trigo",
-        "quantidy": 35,
-        "date": "14/08/2026 01:24:53"
-    },
-    {
-        "type": "IN",
-        "name": "Leite",
-        "quantidy": 80,
-        "date": "14/08/2026 01:24:53"
-    },
-    {
-        "type": "IN",
-        "name": "Manteiga",
-        "quantidy": 25,
-        "date": "14/08/2026 01:24:53"
-    },
-    {
-        "type": "IN",
-        "name": "Queijo",
-        "quantidy": 20,
-        "date": "14/08/2026 01:24:54"
-    },
-    {
-        "type": "IN",
-        "name": "Iogurte",
-        "quantidy": 50,
-        "date": "14/08/2026 01:24:54"
-    },
-    {
-        "type": "IN",
-        "name": "Refrigerante",
-        "quantidy": 70,
-        "date": "14/08/2026 01:24:54"
-    },
-    {
-        "type": "IN",
-        "name": "Suco de laranja",
-        "quantidy": 45,
-        "date": "14/08/2026 01:24:55"
-    },
-    {
-        "type": "IN",
-        "name": "Água mineral",
-        "quantidy": 100,
-        "date": "14/08/2026 01:24:55"
-    },
-    {
-        "type": "IN",
-        "name": "Energético",
-        "quantidy": 35,
-        "date": "14/08/2026 01:24:55"
-    },
-    {
-        "type": "IN",
-        "name": "Chá",
-        "quantidy": 30,
-        "date": "14/08/2026 01:24:55"
-    },
-    {
-        "type": "IN",
-        "name": "Sabonete",
-        "quantidy": 100,
-        "date": "14/08/2026 01:24:56"
-    },
-    {
-        "type": "IN",
-        "name": "Shampoo",
-        "quantidy": 50,
-        "date": "14/08/2026 01:24:56"
-    },
-    {
-        "type": "IN",
-        "name": "Condicionador",
-        "quantidy": 45,
-        "date": "14/08/2026 01:24:56"
-    },
-    {
-        "type": "IN",
-        "name": "Creme dental",
-        "quantidy": 80,
-        "date": "14/08/2026 01:24:56"
-    },
-    {
-        "type": "IN",
-        "name": "Desodorante",
-        "quantidy": 65,
-        "date": "14/08/2026 01:24:56"
-    },
-    {
-        "type": "IN",
-        "name": "Papel higiênico",
-        "quantidy": 90,
-        "date": "14/08/2026 01:24:56"
-    },
-    {
-        "type": "IN",
-        "name": "Detergente",
-        "quantidy": 75,
-        "date": "14/08/2026 01:24:56"
-    },
-    {
-        "type": "IN",
-        "name": "Sabão em pó",
-        "quantidy": 40,
-        "date": "14/08/2026 01:24:56"
-    },
-    {
-        "type": "IN",
-        "name": "Desinfetante",
-        "quantidy": 55,
-        "date": "14/08/2026 01:24:57"
-    },
-    {
-        "type": "IN",
-        "name": "Água sanitária",
-        "quantidy": 60,
-        "date": "14/08/2026 01:24:57"
-    },
-    {
-        "type": "IN",
-        "name": "Esponja",
-        "quantidy": 100,
-        "date": "14/08/2026 01:24:57"
-    },
-    {
-        "type": "IN",
-        "name": "Saco de lixo",
-        "quantidy": 80,
-        "date": "14/08/2026 01:24:57"
-    },
-    {
-        "type": "IN",
-        "name": "Papel toalha",
-        "quantidy": 70,
-        "date": "14/08/2026 01:24:57"
-    },
-    {
-        "type": "IN",
-        "name": "Guardanapo",
-        "quantidy": 120,
-        "date": "14/08/2026 01:24:58"
-    },
-    {
-        "type": "IN",
-        "name": "Palito de dente",
-        "quantidy": 90,
-        "date": "14/08/2026 01:24:58"
-    },
-    {
-        "type": "IN",
-        "name": "Caneta azul",
-        "quantidy": 150,
-        "date": "14/08/2026 01:24:58"
-    },
-    {
-        "type": "IN",
-        "name": "Caneta preta",
-        "quantidy": 120,
-        "date": "14/08/2026 01:24:58"
-    },
-    {
-        "type": "IN",
-        "name": "Lápis",
-        "quantidy": 100,
-        "date": "14/08/2026 01:24:58"
-    },
-    {
-        "type": "IN",
-        "name": "Borracha",
-        "quantidy": 80,
-        "date": "14/08/2026 01:24:59"
-    },
-    {
-        "type": "IN",
-        "name": "Caderno",
-        "quantidy": 50,
-        "date": "14/08/2026 01:24:59"
-    },
-    {
-        "type": "IN",
-        "name": "Pilha AA",
-        "quantidy": 60,
-        "date": "14/08/2026 01:24:59"
-    },
-    {
-        "type": "IN",
-        "name": "Pilha AAA",
-        "quantidy": 60,
-        "date": "14/08/2026 01:24:59"
-    },
-    {
-        "type": "IN",
-        "name": "Cabo USB",
-        "quantidy": 40,
-        "date": "14/08/2026 01:25:00"
-    },
-    {
-        "type": "IN",
-        "name": "Carregador",
-        "quantidy": 30,
-        "date": "14/08/2026 01:25:00"
-    },
-    {
-        "type": "IN",
-        "name": "Fone de ouvido",
-        "quantidy": 35,
-        "date": "14/08/2026 01:25:00"
-    },
-    {
-        "type": "IN",
-        "name": "Bolacha",
-        "quantidy": 70,
-        "date": "14/08/2026 01:25:00"
-    },
-    {
-        "type": "IN",
-        "name": "Biscoito recheado",
-        "quantidy": 65,
-        "date": "14/08/2026 01:25:00"
-    },
-    {
-        "type": "IN",
-        "name": "Chocolate",
-        "quantidy": 50,
-        "date": "14/08/2026 01:25:00"
-    },
-    {
-        "type": "IN",
-        "name": "Achocolatado",
-        "quantidy": 45,
-        "date": "14/08/2026 01:25:00"
-    },
-    {
-        "type": "IN",
-        "name": "Milho em conserva",
-        "quantidy": 40,
-        "date": "14/08/2026 01:25:01"
-    },
-    {
-        "type": "IN",
-        "name": "Atum enlatado",
-        "quantidy": 35,
-        "date": "14/08/2026 01:25:01"
-    },
-    {
-        "type": "IN",
-        "name": "Molho de tomate",
-        "quantidy": 60,
-        "date": "14/08/2026 01:25:01"
+        "buy_price": 4.5,
+        "sell_price": 7.2,
+        "quantity": 35,
+        "date": "14/08/2026 20:37:34"
     },
     {
         "type": "IN",
         "name": "Óleo de soja",
-        "quantidy": 50,
-        "date": "14/08/2026 01:25:01"
+        "buy_price": 5.9,
+        "sell_price": 8.5,
+        "quantity": 50,
+        "date": "14/08/2026 20:37:34"
     },
     {
         "type": "IN",
-        "name": "Sal",
-        "quantidy": 80,
-        "date": "14/08/2026 01:25:01"
+        "name": "Sal refinado",
+        "buy_price": 1.8,
+        "sell_price": 3.2,
+        "quantity": 70,
+        "date": "14/08/2026 20:37:34"
     },
     {
         "type": "IN",
-        "name": "Tempero",
-        "quantidy": 55,
-        "date": "14/08/2026 01:25:01"
+        "name": "Café em pó",
+        "buy_price": 12.5,
+        "sell_price": 18.9,
+        "quantity": 35,
+        "date": "14/08/2026 20:37:34"
+    },
+    {
+        "type": "IN",
+        "name": "Achocolatado",
+        "buy_price": 9.5,
+        "sell_price": 14.9,
+        "quantity": 30,
+        "date": "14/08/2026 20:37:34"
+    },
+    {
+        "type": "IN",
+        "name": "Leite em pó",
+        "buy_price": 16.9,
+        "sell_price": 23.9,
+        "quantity": 25,
+        "date": "14/08/2026 20:37:35"
+    },
+    {
+        "type": "IN",
+        "name": "Biscoito água e sal",
+        "buy_price": 4.2,
+        "sell_price": 6.9,
+        "quantity": 40,
+        "date": "14/08/2026 20:37:35"
+    },
+    {
+        "type": "IN",
+        "name": "Biscoito recheado",
+        "buy_price": 3.5,
+        "sell_price": 5.9,
+        "quantity": 45,
+        "date": "14/08/2026 20:37:35"
+    },
+    {
+        "type": "IN",
+        "name": "Bolacha de chocolate",
+        "buy_price": 4.0,
+        "sell_price": 6.5,
+        "quantity": 35,
+        "date": "14/08/2026 20:37:35"
+    },
+    {
+        "type": "IN",
+        "name": "Granola",
+        "buy_price": 11.5,
+        "sell_price": 17.9,
+        "quantity": 25,
+        "date": "14/08/2026 20:37:35"
+    },
+    {
+        "type": "IN",
+        "name": "Aveia em flocos",
+        "buy_price": 6.0,
+        "sell_price": 9.5,
+        "quantity": 30,
+        "date": "14/08/2026 20:37:36"
+    },
+    {
+        "type": "IN",
+        "name": "Flocos de milho",
+        "buy_price": 5.5,
+        "sell_price": 8.9,
+        "quantity": 40,
+        "date": "14/08/2026 20:37:36"
+    },
+    {
+        "type": "IN",
+        "name": "Tapioca",
+        "buy_price": 4.9,
+        "sell_price": 7.9,
+        "quantity": 35,
+        "date": "14/08/2026 20:37:36"
+    },
+    {
+        "type": "IN",
+        "name": "Cuscuz",
+        "buy_price": 2.8,
+        "sell_price": 4.9,
+        "quantity": 50,
+        "date": "14/08/2026 20:37:36"
+    },
+    {
+        "type": "IN",
+        "name": "Polvilho doce",
+        "buy_price": 6.9,
+        "sell_price": 10.9,
+        "quantity": 30,
+        "date": "14/08/2026 20:37:36"
+    },
+    {
+        "type": "IN",
+        "name": "Fubá",
+        "buy_price": 3.5,
+        "sell_price": 5.9,
+        "quantity": 40,
+        "date": "14/08/2026 20:37:37"
+    },
+    {
+        "type": "IN",
+        "name": "Leite integral",
+        "buy_price": 4.8,
+        "sell_price": 6.9,
+        "quantity": 40,
+        "date": "14/08/2026 20:37:37"
+    },
+    {
+        "type": "IN",
+        "name": "Leite desnatado",
+        "buy_price": 4.9,
+        "sell_price": 7.2,
+        "quantity": 35,
+        "date": "14/08/2026 20:37:37"
+    },
+    {
+        "type": "IN",
+        "name": "Iogurte natural",
+        "buy_price": 3.5,
+        "sell_price": 5.9,
+        "quantity": 30,
+        "date": "14/08/2026 20:37:37"
+    },
+    {
+        "type": "IN",
+        "name": "Iogurte de morango",
+        "buy_price": 3.8,
+        "sell_price": 6.5,
+        "quantity": 25,
+        "date": "14/08/2026 20:37:37"
+    },
+    {
+        "type": "IN",
+        "name": "Queijo mussarela",
+        "buy_price": 22.0,
+        "sell_price": 31.9,
+        "quantity": 20,
+        "date": "14/08/2026 20:37:38"
+    },
+    {
+        "type": "IN",
+        "name": "Queijo prato",
+        "buy_price": 23.5,
+        "sell_price": 34.9,
+        "quantity": 18,
+        "date": "14/08/2026 20:37:38"
+    },
+    {
+        "type": "IN",
+        "name": "Requeijão",
+        "buy_price": 7.5,
+        "sell_price": 11.9,
+        "quantity": 25,
+        "date": "14/08/2026 20:37:38"
+    },
+    {
+        "type": "IN",
+        "name": "Manteiga",
+        "buy_price": 9.5,
+        "sell_price": 14.9,
+        "quantity": 20,
+        "date": "14/08/2026 20:37:38"
+    },
+    {
+        "type": "IN",
+        "name": "Creme de leite",
+        "buy_price": 3.5,
+        "sell_price": 5.5,
+        "quantity": 35,
+        "date": "14/08/2026 20:37:38"
+    },
+    {
+        "type": "IN",
+        "name": "Leite condensado",
+        "buy_price": 4.5,
+        "sell_price": 7.5,
+        "quantity": 30,
+        "date": "14/08/2026 20:37:38"
+    },
+    {
+        "type": "IN",
+        "name": "Pão francês",
+        "buy_price": 0.8,
+        "sell_price": 1.5,
+        "quantity": 60,
+        "date": "14/08/2026 20:37:39"
+    },
+    {
+        "type": "IN",
+        "name": "Pão de forma",
+        "buy_price": 6.0,
+        "sell_price": 9.5,
+        "quantity": 35,
+        "date": "14/08/2026 20:37:39"
+    },
+    {
+        "type": "IN",
+        "name": "Pão integral",
+        "buy_price": 6.5,
+        "sell_price": 10.5,
+        "quantity": 30,
+        "date": "14/08/2026 20:37:39"
+    },
+    {
+        "type": "IN",
+        "name": "Croissant",
+        "buy_price": 4.0,
+        "sell_price": 7.5,
+        "quantity": 20,
+        "date": "14/08/2026 20:37:39"
+    },
+    {
+        "type": "IN",
+        "name": "Donut",
+        "buy_price": 3.2,
+        "sell_price": 6.0,
+        "quantity": 25,
+        "date": "14/08/2026 20:37:39"
+    },
+    {
+        "type": "IN",
+        "name": "Sonho recheado",
+        "buy_price": 3.5,
+        "sell_price": 6.5,
+        "quantity": 20,
+        "date": "14/08/2026 20:37:40"
+    },
+    {
+        "type": "IN",
+        "name": "Bolo de chocolate",
+        "buy_price": 12.0,
+        "sell_price": 19.9,
+        "quantity": 15,
+        "date": "14/08/2026 20:37:40"
+    },
+    {
+        "type": "IN",
+        "name": "Bolo de cenoura",
+        "buy_price": 11.0,
+        "sell_price": 18.9,
+        "quantity": 12,
+        "date": "14/08/2026 20:37:40"
+    },
+    {
+        "type": "IN",
+        "name": "Torta de frango",
+        "buy_price": 15.0,
+        "sell_price": 24.9,
+        "quantity": 15,
+        "date": "14/08/2026 20:37:40"
+    },
+    {
+        "type": "IN",
+        "name": "Empada",
+        "buy_price": 4.0,
+        "sell_price": 7.9,
+        "quantity": 25,
+        "date": "14/08/2026 20:37:40"
+    },
+    {
+        "type": "IN",
+        "name": "Peito de frango",
+        "buy_price": 14.9,
+        "sell_price": 22.9,
+        "quantity": 30,
+        "date": "14/08/2026 20:37:40"
+    },
+    {
+        "type": "IN",
+        "name": "Carne moída",
+        "buy_price": 18.0,
+        "sell_price": 27.9,
+        "quantity": 25,
+        "date": "14/08/2026 20:37:41"
+    },
+    {
+        "type": "IN",
+        "name": "Patinho",
+        "buy_price": 28.0,
+        "sell_price": 39.9,
+        "quantity": 20,
+        "date": "14/08/2026 20:37:41"
+    },
+    {
+        "type": "IN",
+        "name": "Alcatra",
+        "buy_price": 35.0,
+        "sell_price": 49.9,
+        "quantity": 18,
+        "date": "14/08/2026 20:37:41"
+    },
+    {
+        "type": "IN",
+        "name": "Contra-filé",
+        "buy_price": 38.0,
+        "sell_price": 54.9,
+        "quantity": 15,
+        "date": "14/08/2026 20:37:41"
+    },
+    {
+        "type": "IN",
+        "name": "Linguiça calabresa",
+        "buy_price": 12.0,
+        "sell_price": 18.9,
+        "quantity": 25,
+        "date": "14/08/2026 20:37:41"
+    },
+    {
+        "type": "IN",
+        "name": "Bacon",
+        "buy_price": 17.0,
+        "sell_price": 25.9,
+        "quantity": 20,
+        "date": "14/08/2026 20:37:41"
+    },
+    {
+        "type": "IN",
+        "name": "Salsicha",
+        "buy_price": 8.5,
+        "sell_price": 13.9,
+        "quantity": 35,
+        "date": "14/08/2026 20:37:42"
+    },
+    {
+        "type": "IN",
+        "name": "Presunto",
+        "buy_price": 13.0,
+        "sell_price": 19.9,
+        "quantity": 25,
+        "date": "14/08/2026 20:37:42"
+    },
+    {
+        "type": "IN",
+        "name": "Peito de peru",
+        "buy_price": 16.0,
+        "sell_price": 24.9,
+        "quantity": 20,
+        "date": "14/08/2026 20:37:42"
+    },
+    {
+        "type": "IN",
+        "name": "Maçã",
+        "buy_price": 4.5,
+        "sell_price": 7.9,
+        "quantity": 50,
+        "date": "14/08/2026 20:37:42"
+    },
+    {
+        "type": "IN",
+        "name": "Banana",
+        "buy_price": 3.0,
+        "sell_price": 5.9,
+        "quantity": 60,
+        "date": "14/08/2026 20:37:42"
+    },
+    {
+        "type": "IN",
+        "name": "Manga",
+        "buy_price": 4.0,
+        "sell_price": 7.5,
+        "quantity": 40,
+        "date": "14/08/2026 20:37:42"
+    },
+    {
+        "type": "IN",
+        "name": "Mamão",
+        "buy_price": 5.0,
+        "sell_price": 8.9,
+        "quantity": 35,
+        "date": "14/08/2026 20:37:43"
+    },
+    {
+        "type": "IN",
+        "name": "Uva",
+        "buy_price": 8.0,
+        "sell_price": 13.9,
+        "quantity": 30,
+        "date": "14/08/2026 20:37:43"
+    },
+    {
+        "type": "IN",
+        "name": "Morango",
+        "buy_price": 9.0,
+        "sell_price": 15.9,
+        "quantity": 25,
+        "date": "14/08/2026 20:37:43"
+    },
+    {
+        "type": "IN",
+        "name": "Abacaxi",
+        "buy_price": 6.0,
+        "sell_price": 10.9,
+        "quantity": 25,
+        "date": "14/08/2026 20:37:43"
+    },
+    {
+        "type": "IN",
+        "name": "Melancia",
+        "buy_price": 10.0,
+        "sell_price": 17.9,
+        "quantity": 20,
+        "date": "14/08/2026 20:37:43"
+    },
+    {
+        "type": "IN",
+        "name": "Pera",
+        "buy_price": 5.5,
+        "sell_price": 9.5,
+        "quantity": 35,
+        "date": "14/08/2026 20:37:43"
+    },
+    {
+        "type": "IN",
+        "name": "Kiwi",
+        "buy_price": 10.0,
+        "sell_price": 17.9,
+        "quantity": 20,
+        "date": "14/08/2026 20:37:44"
+    },
+    {
+        "type": "IN",
+        "name": "Alface",
+        "buy_price": 2.0,
+        "sell_price": 3.9,
+        "quantity": 30,
+        "date": "14/08/2026 20:37:44"
+    },
+    {
+        "type": "IN",
+        "name": "Rúcula",
+        "buy_price": 2.5,
+        "sell_price": 4.9,
+        "quantity": 25,
+        "date": "14/08/2026 20:37:44"
+    },
+    {
+        "type": "IN",
+        "name": "Couve",
+        "buy_price": 2.2,
+        "sell_price": 4.5,
+        "quantity": 30,
+        "date": "14/08/2026 20:37:44"
+    },
+    {
+        "type": "IN",
+        "name": "Espinafre",
+        "buy_price": 3.0,
+        "sell_price": 5.9,
+        "quantity": 20,
+        "date": "14/08/2026 20:37:44"
+    },
+    {
+        "type": "IN",
+        "name": "Brócolis",
+        "buy_price": 5.0,
+        "sell_price": 8.9,
+        "quantity": 25,
+        "date": "14/08/2026 20:37:44"
+    },
+    {
+        "type": "IN",
+        "name": "Cenoura",
+        "buy_price": 3.5,
+        "sell_price": 6.9,
+        "quantity": 50,
+        "date": "14/08/2026 20:37:45"
+    },
+    {
+        "type": "IN",
+        "name": "Batata",
+        "buy_price": 3.0,
+        "sell_price": 5.9,
+        "quantity": 60,
+        "date": "14/08/2026 20:37:45"
+    },
+    {
+        "type": "IN",
+        "name": "Abobrinha",
+        "buy_price": 4.0,
+        "sell_price": 7.5,
+        "quantity": 35,
+        "date": "14/08/2026 20:37:45"
+    },
+    {
+        "type": "IN",
+        "name": "Berinjela",
+        "buy_price": 3.5,
+        "sell_price": 6.9,
+        "quantity": 30,
+        "date": "14/08/2026 20:37:45"
+    },
+    {
+        "type": "IN",
+        "name": "Pimentão",
+        "buy_price": 5.0,
+        "sell_price": 9.9,
+        "quantity": 25,
+        "date": "14/08/2026 20:37:45"
+    },
+    {
+        "type": "IN",
+        "name": "Ovos brancos",
+        "buy_price": 9.0,
+        "sell_price": 13.9,
+        "quantity": 60,
+        "date": "14/08/2026 20:37:45"
+    },
+    {
+        "type": "IN",
+        "name": "Ovos vermelhos",
+        "buy_price": 10.0,
+        "sell_price": 15.9,
+        "quantity": 50,
+        "date": "14/08/2026 20:37:45"
+    },
+    {
+        "type": "IN",
+        "name": "Ovos de codorna",
+        "buy_price": 6.5,
+        "sell_price": 10.9,
+        "quantity": 35,
+        "date": "14/08/2026 20:37:46"
+    },
+    {
+        "type": "IN",
+        "name": "Tofu",
+        "buy_price": 8.0,
+        "sell_price": 13.9,
+        "quantity": 20,
+        "date": "14/08/2026 20:37:46"
+    },
+    {
+        "type": "IN",
+        "name": "Hambúrguer vegetal",
+        "buy_price": 13.0,
+        "sell_price": 19.9,
+        "quantity": 25,
+        "date": "14/08/2026 20:37:46"
+    },
+    {
+        "type": "IN",
+        "name": "Leite de soja",
+        "buy_price": 5.5,
+        "sell_price": 8.9,
+        "quantity": 30,
+        "date": "14/08/2026 20:37:46"
+    },
+    {
+        "type": "IN",
+        "name": "Leite de amêndoas",
+        "buy_price": 9.0,
+        "sell_price": 14.9,
+        "quantity": 25,
+        "date": "14/08/2026 20:37:46"
+    },
+    {
+        "type": "IN",
+        "name": "Iogurte vegetal",
+        "buy_price": 6.0,
+        "sell_price": 9.9,
+        "quantity": 20,
+        "date": "14/08/2026 20:37:47"
+    },
+    {
+        "type": "IN",
+        "name": "Queijo vegetal",
+        "buy_price": 16.0,
+        "sell_price": 24.9,
+        "quantity": 15,
+        "date": "14/08/2026 20:37:47"
+    },
+    {
+        "type": "IN",
+        "name": "Bebida de aveia",
+        "buy_price": 8.0,
+        "sell_price": 12.9,
+        "quantity": 30,
+        "date": "14/08/2026 20:37:47"
+    },
+    {
+        "type": "IN",
+        "name": "Maionese",
+        "buy_price": 6.5,
+        "sell_price": 10.9,
+        "quantity": 30,
+        "date": "14/08/2026 20:37:48"
+    },
+    {
+        "type": "IN",
+        "name": "Ketchup",
+        "buy_price": 5.0,
+        "sell_price": 8.9,
+        "quantity": 35,
+        "date": "14/08/2026 20:37:48"
+    },
+    {
+        "type": "IN",
+        "name": "Mostarda",
+        "buy_price": 4.5,
+        "sell_price": 7.9,
+        "quantity": 30,
+        "date": "14/08/2026 20:37:48"
+    },
+    {
+        "type": "IN",
+        "name": "Molho barbecue",
+        "buy_price": 8.0,
+        "sell_price": 13.9,
+        "quantity": 25,
+        "date": "14/08/2026 20:37:48"
+    },
+    {
+        "type": "IN",
+        "name": "Molho de pimenta",
+        "buy_price": 4.0,
+        "sell_price": 7.5,
+        "quantity": 20,
+        "date": "14/08/2026 20:37:48"
+    },
+    {
+        "type": "IN",
+        "name": "Azeitona verde",
+        "buy_price": 7.0,
+        "sell_price": 11.9,
+        "quantity": 35,
+        "date": "14/08/2026 20:37:48"
+    },
+    {
+        "type": "IN",
+        "name": "Palmito",
+        "buy_price": 13.0,
+        "sell_price": 20.9,
+        "quantity": 25,
+        "date": "14/08/2026 20:37:49"
+    },
+    {
+        "type": "IN",
+        "name": "Ervilha em conserva",
+        "buy_price": 3.5,
+        "sell_price": 5.9,
+        "quantity": 40,
+        "date": "14/08/2026 20:37:49"
+    },
+    {
+        "type": "IN",
+        "name": "Pepino em conserva",
+        "buy_price": 6.0,
+        "sell_price": 9.9,
+        "quantity": 30,
+        "date": "14/08/2026 20:37:49"
+    },
+    {
+        "type": "IN",
+        "name": "Champignon",
+        "buy_price": 10.0,
+        "sell_price": 15.9,
+        "quantity": 20,
+        "date": "14/08/2026 20:37:49"
+    },
+    {
+        "type": "IN",
+        "name": "Suco de laranja",
+        "buy_price": 5.0,
+        "sell_price": 8.9,
+        "quantity": 40,
+        "date": "14/08/2026 20:37:49"
+    },
+    {
+        "type": "IN",
+        "name": "Suco de uva",
+        "buy_price": 6.0,
+        "sell_price": 9.9,
+        "quantity": 35,
+        "date": "14/08/2026 20:37:49"
+    },
+    {
+        "type": "IN",
+        "name": "Água de coco",
+        "buy_price": 5.5,
+        "sell_price": 8.9,
+        "quantity": 30,
+        "date": "14/08/2026 20:37:50"
+    },
+    {
+        "type": "IN",
+        "name": "Chá gelado",
+        "buy_price": 4.0,
+        "sell_price": 6.9,
+        "quantity": 40,
+        "date": "14/08/2026 20:37:50"
+    },
+    {
+        "type": "IN",
+        "name": "Cappuccino",
+        "buy_price": 11.0,
+        "sell_price": 16.9,
+        "quantity": 25,
+        "date": "14/08/2026 20:37:50"
+    },
+    {
+        "type": "IN",
+        "name": "Chocolate ao leite",
+        "buy_price": 6.5,
+        "sell_price": 10.9,
+        "quantity": 30,
+        "date": "14/08/2026 20:37:50"
+    },
+    {
+        "type": "IN",
+        "name": "Chocolate amargo",
+        "buy_price": 7.0,
+        "sell_price": 12.9,
+        "quantity": 25,
+        "date": "14/08/2026 20:37:50"
+    },
+    {
+        "type": "IN",
+        "name": "Geleia de morango",
+        "buy_price": 8.0,
+        "sell_price": 13.9,
+        "quantity": 20,
+        "date": "14/08/2026 20:37:50"
+    },
+    {
+        "type": "IN",
+        "name": "Doce de leite",
+        "buy_price": 7.5,
+        "sell_price": 12.9,
+        "quantity": 25,
+        "date": "14/08/2026 20:37:51"
+    },
+    {
+        "type": "IN",
+        "name": "Pasta de amendoim",
+        "buy_price": 10.0,
+        "sell_price": 16.9,
+        "quantity": 20,
+        "date": "14/08/2026 20:37:51"
+    },
+    {
+        "type": "READ",
+        "name": "Bebida de aveia",
+        "buy_price": 8.0,
+        "sell_price": 12.9,
+        "quantity": 30,
+        "date": "14/08/2026 20:39:15"
     },
     {
         "type": "OUT",
-        "name": "Leite",
-        "quantidy": 6,
-        "date": "14/08/2026 16:16:13"
+        "name": "Açúcar cristal",
+        "buy_price": 3.8,
+        "sell_price": 5.5,
+        "quantity": 5,
+        "date": "14/08/2026 21:15:16"
+    },
+    {
+        "type": "OUT",
+        "name": "Sal refinado",
+        "buy_price": 1.8,
+        "sell_price": 3.2,
+        "quantity": 10,
+        "date": "14/08/2026 21:15:17"
+    },
+    {
+        "type": "OUT",
+        "name": "Biscoito recheado",
+        "buy_price": 3.5,
+        "sell_price": 5.9,
+        "quantity": 3,
+        "date": "14/08/2026 21:15:18"
+    },
+    {
+        "type": "OUT",
+        "name": "Cuscuz",
+        "buy_price": 2.8,
+        "sell_price": 4.9,
+        "quantity": 8,
+        "date": "14/08/2026 21:15:18"
+    },
+    {
+        "type": "OUT",
+        "name": "Iogurte de morango",
+        "buy_price": 3.8,
+        "sell_price": 6.5,
+        "quantity": 15,
+        "date": "14/08/2026 21:15:19"
+    },
+    {
+        "type": "OUT",
+        "name": "Pão francês",
+        "buy_price": 0.8,
+        "sell_price": 1.5,
+        "quantity": 7,
+        "date": "14/08/2026 21:15:19"
+    },
+    {
+        "type": "OUT",
+        "name": "Torta de frango",
+        "buy_price": 15.0,
+        "sell_price": 24.9,
+        "quantity": 12,
+        "date": "14/08/2026 21:15:19"
+    },
+    {
+        "type": "OUT",
+        "name": "Contra-filé",
+        "buy_price": 38.0,
+        "sell_price": 54.9,
+        "quantity": 4,
+        "date": "14/08/2026 21:15:20"
+    },
+    {
+        "type": "OUT",
+        "name": "Banana",
+        "buy_price": 3.0,
+        "sell_price": 5.9,
+        "quantity": 9,
+        "date": "14/08/2026 21:15:20"
+    },
+    {
+        "type": "OUT",
+        "name": "Melancia",
+        "buy_price": 10.0,
+        "sell_price": 17.9,
+        "quantity": 6,
+        "date": "14/08/2026 21:15:21"
+    },
+    {
+        "type": "OUT",
+        "name": "Espinafre",
+        "buy_price": 3.0,
+        "sell_price": 5.9,
+        "quantity": 11,
+        "date": "14/08/2026 21:15:21"
+    },
+    {
+        "type": "OUT",
+        "name": "Ovos brancos",
+        "buy_price": 9.0,
+        "sell_price": 13.9,
+        "quantity": 5,
+        "date": "14/08/2026 21:15:21"
+    },
+    {
+        "type": "OUT",
+        "name": "Leite de amêndoas",
+        "buy_price": 9.0,
+        "sell_price": 14.9,
+        "quantity": 8,
+        "date": "14/08/2026 21:15:21"
+    },
+    {
+        "type": "OUT",
+        "name": "Mostarda",
+        "buy_price": 4.5,
+        "sell_price": 7.9,
+        "quantity": 13,
+        "date": "14/08/2026 21:15:22"
+    },
+    {
+        "type": "OUT",
+        "name": "Suco de laranja",
+        "buy_price": 5.0,
+        "sell_price": 8.9,
+        "quantity": 4,
+        "date": "14/08/2026 21:15:22"
+    },
+    {
+        "type": "OUT",
+        "name": "Chocolate amargo",
+        "buy_price": 7.0,
+        "sell_price": 12.9,
+        "quantity": 10,
+        "date": "14/08/2026 21:15:22"
     },
     {
         "type": "DELETE",
-        "name": "Leite",
-        "quantidy": 56,
-        "date": "14/08/2026 16:17:40"
+        "name": "Aveia em flocos",
+        "buy_price": 6.0,
+        "sell_price": 9.5,
+        "quantity": 30,
+        "date": "14/08/2026 21:16:26"
     },
     {
-        "type": "READ",
-        "name": "Detergente",
-        "quantidy": 75,
-        "date": "14/08/2026 16:40:40"
+        "type": "DELETE",
+        "name": "Bolo de chocolate",
+        "buy_price": 12.0,
+        "sell_price": 19.9,
+        "quantity": 15,
+        "date": "14/08/2026 21:16:26"
     },
     {
-        "type": "READ",
-        "name": "Milho em conserva",
-        "quantidy": 40,
-        "date": "14/08/2026 16:41:15"
+        "type": "DELETE",
+        "name": "Morango",
+        "buy_price": 9.0,
+        "sell_price": 15.9,
+        "quantity": 25,
+        "date": "14/08/2026 21:16:26"
     },
     {
-        "type": "READ",
-        "name": "Creme dental",
-        "quantidy": 80,
-        "date": "14/08/2026 16:54:20"
+        "type": "DELETE",
+        "name": "Tofu",
+        "buy_price": 8.0,
+        "sell_price": 13.9,
+        "quantity": 20,
+        "date": "14/08/2026 21:16:28"
+    },
+    {
+        "type": "DELETE",
+        "name": "Ervilha em conserva",
+        "buy_price": 3.5,
+        "sell_price": 5.9,
+        "quantity": 40,
+        "date": "14/08/2026 21:16:28"
     }
 ]

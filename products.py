@@ -1,36 +1,47 @@
 from functions import *
 from movement import Movement
+from datetime import datetime
+import sqlite3
 
 class Product:
-        def __init__(self,name,quantity,amount,category,validity,lot):
+        def __init__(self,name,quantity,buy,sell,category,validity,lot):
             self.name = name
             self.quantity = int(quantity)
-            self.amount = float(amount)
+            self.buy = float(buy)
+            self.sell = float(sell)
             self.category = category.lower()
             self.validity = validity
             self.lot = lot
 
         def create(self):
-            stock = open_stock()
-            date = date_now()
-            new_id = 1
-            while any(info['id'] == new_id for info in stock):
-                new_id += 1
+            try:
+                date = datetime.now()
+                type = "IN"
+                conectionStock = sqlite3.connect("database/Stock_data.db")
+                cursorStock = conectionStock.cursor()
 
-            info = {
-                'id': new_id,
-                'name': self.name,
-                'quantity': self.quantity,
-                'amount': self.amount,
-                'category': self.category,
-                'validity': self.validity,
-                'lot': self.lot
-            }
-            stock.append(info)
-            save_stock(stock)
-            history = Movement('IN',self.name,self.quantity,date)
-            history.save_movement()
-            print('Product created successfuly!')
+                cursorStock.execute("""INSERT INTO stocks
+                                        (name,quantity,buy_price,sell_price,category,validity,lot) VALUES
+                                        (?, ?, ?, ?, ?, ?, ?)""",
+                                        (self.name, self.quantity, self.buy, self.sell, self.category, self.validity, self.lot))
+
+                conectionStock.commit()
+                conectionStock.close()
+
+                conectionMovement = sqlite3.connect("database/Movement_data.db")
+                cursorMovement = conectionMovement.cursor()
+
+                cursorMovement.execute("""INSERT INTO movement
+                                        (type,name,buy_price,sell_price,quantity,date) VALUES
+                                        (?, ?, ?, ?, ?, ?)""",
+                                        (type, self.name, self.buy, self.sell, self.quantity, date))
+
+                conectionMovement.commit()
+                conectionMovement.close()
+                print('Product created successfuly!')
+            except sqlite3.Error as erro:
+                print(f"Erro ao criar produto: {erro}")
+
     
 
 
