@@ -1,30 +1,38 @@
 from functions import *
 from datetime import datetime, timedelta
+import sqlite3
 
 line = '-'*50
 class View:
     def __init__(self):
         pass
 
+    def product(self):
+        stock = sqlite3.connect("database/Stock_data.db")
+        cursorStock = stock.cursor()
+        cursorStock.execute("SELECT * FROM stocks")
+        datas = cursorStock.fetchall()
+        stock.close()
+        return datas
+
     def viewAll(self):
-        stock = open_stock()
-        print('ALL PRODUCTS'.center(50))
-        print(line)
-        for products in stock:
-            get_view(products)
-        print(f'Quantity of products: {len(stock)}')
+        datas = self.product()
+        for data in datas:
+            print()
+            for info in data:
+                print(f"{info}, ",end="")
 
     def validity(self):
-        stock = open_stock()
+        stock = self.product()
         date = datetime.now().date()
         limit_expiring = date + timedelta(days=7)
         expired = []
         today = []
         expiring = []
         for product in stock:
-            if not product['validity']:
+            if not product[6]:
                 continue
-            validity = datetime.strptime(product['validity'], '%d/%m/%Y').date()
+            validity = datetime.strptime(product[6], '%d/%m/%Y').date()
             if date > validity:
                 expired.append(product)
             elif date == validity:
@@ -35,35 +43,66 @@ class View:
         print('EXPIRED PRODUCTS'.center(50))
         print(line)
         for product in expired:
-            get_view(product)
+            print(product)
 
         print('PRODUCTS EXPIRING TODAY'.center(50))
         print(line)
         for product in today:
-            get_view(product)
+            print(product)
         print('PRODUCTS EXPIRING IN 7 DAYS'.center(50))
         print(line)
         for product in expiring:
-            get_view(product)
+            print(product)
 
         print(f'Expired: {len(expired)} products')
         print(f'Expired today: {len(today)} products')
         print(f'Expiring: {len(expiring)} products')
 
     def profit(self):
-        movement = open_movement()
+        movement = sqlite3.connect("database/Movement_data.db")
+        cursorMovement = movement.cursor()
+        cursorMovement.execute("SELECT * FROM movement")
+        datas = cursorMovement.fetchall()
+        #print(datas)
+        movement.close()
         gain = 0
         cost = 0
         loss = 0
-        for info in movement:
-            if info['type'] == 'IN':
-                money = info['buy_price'] * info['quantity']
+        for info in datas:
+            if info[0] == 'IN':
+                money = info[2] * info[4]
                 cost += money
-            elif info['type'] == 'OUT':
-                money = info['sell_price'] * info['quantity']
+            elif info[0] == 'OUT':
+                money = info[3] * info[4]
                 gain += money
-            elif info['type'] == 'DELETE':
-                money = info['buy_price'] * info['quantity']
+            elif info[0] == 'DELETE':
+                money = info[2] * info[4]
+                loss += money
+        profit1 = gain - cost - loss
+        print(f'Gain: ${gain:.2f}')
+        print(f'Cost: ${cost:.2f}')
+        print(f'Loss: ${loss:.2f}')
+        print(f'Profit: ${profit1:.2f}')
+
+    def dateProfit(self, date):
+        movement = sqlite3.connect("database/Movement_data.db")
+        cursorMovement = movement.cursor()
+        cursorMovement.execute("SELECT * FROM movement WHERE date <= DATE(?)", (date,))
+        datas = cursorMovement.fetchall()
+        #print(datas)
+        movement.close()
+        gain = 0
+        cost = 0
+        loss = 0
+        for info in datas:
+            if info[0] == 'IN':
+                money = info[2] * info[4]
+                cost += money
+            elif info[0] == 'OUT':
+                money = info[3] * info[4]
+                gain += money
+            elif info[0] == 'DELETE':
+                money = info[2] * info[4]
                 loss += money
         profit1 = gain - cost - loss
         print(f'Gain: ${gain:.2f}')
