@@ -1,5 +1,3 @@
-from functions import *
-from movement import Movement
 import sqlite3
 from datetime import datetime
 class Modifier:
@@ -12,7 +10,7 @@ class Modifier:
         cursorStock.execute("SELECT name, quantity, buy_price, sell_price FROM stocks WHERE id = (?)", (self.id_product,))
         datas = cursorStock.fetchone()
         if datas is None:
-            print("Produto não encontrado")
+            print("Product not found")
             stock.close()
             return
 
@@ -26,7 +24,7 @@ class Modifier:
             cursorStock = stock.cursor()
 
             if quantity > quant or quantity <= 0:
-                print("Error na quantidade escolhida")
+                print("Error in choose quantity")
                 stock.close()
                 return
             total = quant - quantity
@@ -40,10 +38,10 @@ class Modifier:
                                         VALUES (?, ?, ?, ?, ?, ?)""", ("OUT", name, buy, sell, quantity, time))
             movement.commit()
             movement.close()
-            print(f"Produto alterado: {name}\nQuantidade atual: {total}")
-            print("Produto removido!")
+            print(f"Modifier Product: {name}\nActual quantity: {total}")
+            print("Removed Product!")
         except sqlite3.Error as error:
-            print(f"Erro ao remover produto: {error}")
+            print(f"Error in remove product: {error}")
 
     def removeStock(self):
         try:
@@ -63,7 +61,7 @@ class Modifier:
             print(f"Estoque deletado: {name}")
             print("Estoque deletado com sucesso!")
         except sqlite3.Error as error:
-            print(f"Erro ao deletar estoque: {error}")
+            print(f"Error in delete product: {error}")
 
     def viewProduct(self):
         try:
@@ -82,4 +80,4 @@ class Modifier:
             movement.close()
 
         except sqlite3.Error as error:
-            print(f"Erro ao visualizar produto: {error}")
+            print(f"Error in view product: {error}")

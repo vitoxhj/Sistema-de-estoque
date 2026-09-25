@@ -1,5 +1,3 @@
-from functions import *
-from movement import Movement
 from datetime import datetime
 import sqlite3
 
@@ -40,7 +38,7 @@ class Product:
                 conectionMovement.close()
                 print('Product created successfuly!')
             except sqlite3.Error as erro:
-                print(f"Erro ao criar produto: {erro}")
+                print(f"Erro in create product: {erro}")
 
     
 
