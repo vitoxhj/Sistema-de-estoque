@@ -10,6 +10,7 @@ def stock():
                     quantity INTEGER NOT NULL,
                     buy_price FLOAT NOT NULL,
                     sell_price FLOAT NOT NULL,
+                    original_sell_price FLOAT NOT NULL,
                     category TEXT NOT NULL,
                     validity DATE NOT NULL,
                     lot TEXT NOT NULL)""")

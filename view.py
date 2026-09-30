@@ -184,11 +184,30 @@ class View:
         limit_expiring = date + timedelta(days=7)
         with sqlite3.connect("database/Stock_data.db") as stock:
             cursor = stock.cursor()
-            sell = cursor.execute("SELECT sell_price FROM stock").fetchall()
-            cursor.execute("DELETE FROM stocks WHERE (?) > validity", (date, ))
+            # Dates are stored as DD/MM/YYYY, which cannot be compared
+            # directly by SQLite with a Python date value.
+            products = cursor.execute(
+                "SELECT rowid, validity, original_sell_price FROM stocks"
+            ).fetchall()
+            for rowid, validity_text, original_sell_price in products:
+                try:
+                    validity = datetime.strptime(
+                        validity_text, "%d/%m/%Y"
+                    ).date()
+                except (TypeError, ValueError):
+                    continue
+
+                if validity < date:
+                    cursor.execute("DELETE FROM stocks WHERE rowid = ?", (rowid,))
+                elif validity == date:
+                    cursor.execute(
+                        "UPDATE stocks SET sell_price = ? WHERE rowid = ?",
+                        (original_sell_price * 0.35, rowid),
+                    )
+                elif validity <= limit_expiring:
+                    cursor.execute(
+                        "UPDATE stocks SET sell_price = ? WHERE rowid = ?",
+                        (original_sell_price * 0.70, rowid),
+                    )
             stock.commit()
-            cursor.execute("UPDATE stocks SET sell_price = (?) WHERE (?) < validity < (?)", (0.30, date, limit_expiring))
-            stock.commit()
-            cursor.execute("UPDATE stocks SET sell_price = (?) WHERE (?) == validity", (0.65, date))
-            stock.commit()
-            print("Produtos atualizados!")
+        print("Produtos atualizados!")

@@ -19,9 +19,9 @@ class Product:
                 cursorStock = conectionStock.cursor()
 
                 cursorStock.execute("""INSERT INTO stocks
-                                        (name,quantity,buy_price,sell_price,category,validity,lot) VALUES
-                                        (?, ?, ?, ?, ?, ?, ?)""",
-                                        (self.name, self.quantity, self.buy, self.sell, self.category, self.validity, self.lot))
+                                        (name,quantity,buy_price,sell_price,original_sell_price,category,validity,lot) VALUES
+                                        (?, ?, ?, ?, ?, ?, ?, ?)""",
+                                        (self.name, self.quantity, self.buy, self.sell, self.sell, self.category, self.validity, self.lot))
 
                 conectionStock.commit()
                 conectionStock.close()
